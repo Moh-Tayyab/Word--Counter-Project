@@ -1,14 +1,17 @@
 {
-  "name": "word-counter-project",
-  "version": "1.0.0",
+  "name": "@moh-tayyab0342/word-counter-project",
+  "version": "1.5.5",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Muhammad Tayyab",
+  "license": "MIT",
+  "description": "word counter project with typescript, node.js, inquirer and chalk.",
   "dependencies": {
     "inquirer": "^9.2.21"
   },
